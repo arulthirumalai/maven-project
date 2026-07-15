@@ -14,7 +14,7 @@ stages:
       - bash: echo Build Second Job
 - stage: DevDeploy
   variables:
-    environment: Dev
+    environment: Dev1
   dependsOn: Build
   jobs:
     - job: DevFist
